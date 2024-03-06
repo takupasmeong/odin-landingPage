@@ -76,3 +76,40 @@ button {
     color: #F9FAF8;
     margin: 0;
 }
+
+.features {
+    margin: 0;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+.features .title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 32px;
+}
+
+.features .icons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.icons .info {
+    max-width: 150px;
+}
+
+.icons .info .img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 3px solid #3B82F6;
+    border-radius: 15px;
+}
+
+.icons .info .text {
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 5px;
+    color: #7F7F7F;
+}
