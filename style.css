@@ -132,7 +132,35 @@ button {
 }
 
 .quote .name {
+    font-size: 20px;
     font-weight: bold;
     align-self: end;
     padding: 0 60px;
+}
+
+.signup {
+    background: #3B82F6;
+    margin: 100px 150px;
+    padding: 50px 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup .text .title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.signup .text .message {
+    color: #E5E7EB;
+}
+
+.signup button {
+    border: 3px solid #F9FAF8;
+    background: #3B82F6;
+    width: 100px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
